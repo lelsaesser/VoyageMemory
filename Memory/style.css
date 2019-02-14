@@ -1,0 +1,63 @@
+/*=============================================================================*/
+/*--Memory game, developed by Lucas Elsaesser--							 	 --*/
+/*--The idea of this programm is a simple web-based Memory game in javascript--*/
+/*--																		 --*/
+/*--This file is part of the projekt "Memory"								 --*/
+/*--15.09.2017																 --*/
+/*=============================================================================*/
+
+nav#navBarMain {
+	max-width: 1000px;
+	margin: 0px auto;
+}
+
+div#memory_board {
+	width: 1000px;
+	height: 700px;
+	padding: 24px;
+	margin: 0px auto;
+}
+
+div#memory_board > div {
+	background-image:url('./images/card-texture.jpg');
+	width: 135px;
+	height: 135px;
+	float: left;
+	margin: 10px;
+	font-size: 64px;
+	cursor: pointer;
+	
+}
+
+div#discovery-alert {
+	float:left;
+	height: 105px;
+	max-width: 205px;
+	position:absolute;
+	font-size: 16px;
+	z-index: 5;
+}
+
+div#win-alert {
+	float:left;
+	max-height: 150px;
+	max-width: 205px;
+	position:absolute;
+	font-size: 16px;
+	z-index: 10;
+}
+
+div#info-alert {
+	max-width:1000px;
+	margin: 0px auto;
+	font-size: 18px;
+}
+
+div#progBar {
+	width: 1000px;
+	margin: 0px auto;
+}
+
+#blank {
+	padding:200px;
+}
